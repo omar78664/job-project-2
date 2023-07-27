@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./app.css" />
+    <script
+      src="https://kit.fontawesome.com/bbc9f3a3ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Adarsh Foods Dashboard</title>
+  </head>
+  <body>
+    <header class="hero">
+      <div id="navbar" class="navbar">
+        <div class="logo">
+          <img src="./img/download.png" alt="adarsh-logo" />
+          <h1>Adharsh Food <span class="logo-color"> Products</span></h1>
+        </div>
+        <div class="profile-pic">
+          <img src="./img/tiger-g87cbd1faf_1280.jpg" alt="" />
+          <i class="fa-sharp fa-solid fa-angle-down"></i>
+        </div>
+      </div>
+    </header>
+    <section class="content">
+      <div class="main-content">
+        <section>
+          <div class="newgate">
+            <div class="in-out">
+              <span><h3>IN / OUT Gate Pass</h3></span>
+            </div>
+            <div class="search">
+              <form action="" class="search-bar">
+                <input type="text" placeholder="search" name="q" />
+                <button type="submit">
+                  <img src="./img/search.png" alt="search-icon" />
+                </button>
+              </form>
+            </div>
+            <div class="pass-btn">
+              <a href="#">New Gate Pass</a>
+            </div>
+          </div>
+        </section>
+        <section class="slip">
+          <div class="stock">
+            <div class="stock-heading">
+              <h1>Stocks</h1>
+              <p>(0 - 100,000)</p>
+            </div>
+            <div class="skill">
+              <div class="outer">
+                <div class="inner">
+                  <div id="number"></div>
+                </div>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                width="90px"
+                height="90px"
+              >
+                <defs>
+                  <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                  </linearGradient>
+                </defs>
+                <circle cx="45" cy="45" r="40" stroke-linecap="round" />
+              </svg>
+              <!-- <div class="first-progress-bar-underHeading">Stock</div> -->
+            </div>
+            <div class="skill-1">
+              <div class="outer-1">
+                <div class="inner-1">
+                  <div id="number-1"></div>
+                </div>
+              </div>
+              <svg
+                class="svg-1"
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                width="90px"
+                height="90px"
+              >
+                <defs>
+                  <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                  </linearGradient>
+                </defs>
+                <circle
+                  class="circle-1"
+                  cx="45"
+                  cy="45"
+                  r="40"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <!-- <div class="second-progress-bar-underHeading">top</div> -->
+            </div>
+            <div class="skill-2">
+              <div class="outer-2">
+                <div class="inner-2">
+                  <div id="number-2"></div>
+                </div>
+              </div>
+              <svg
+                class="svg-2"
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                width="90px"
+                height="90px"
+              >
+                <defs>
+                  <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                  </linearGradient>
+                </defs>
+                <circle
+                  class="circle-2"
+                  cx="45"
+                  cy="45"
+                  r="40"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <!-- <div class="third-progress-bar-underHeading">Me</div> -->
+            </div>
+            <div class="skill-3">
+              <div class="outer-3">
+                <div class="inner-3">
+                  <div id="number-3"></div>
+                </div>
+              </div>
+              <svg
+                class="svg-3"
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                width="90px"
+                height="90px"
+              >
+                <defs>
+                  <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                  </linearGradient>
+                </defs>
+                <circle
+                  class="circle-2"
+                  cx="45"
+                  cy="45"
+                  r="40"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <!-- <div class="third-progress-bar-underHeading">Me</div> -->
+            </div>
+          </div>
+          <div class="slip-num-1">
+            <div class="card-1">
+              <div class="loading-1">
+                <p class="number1"></p>
+                <p class="number2">Slip number #123456</p>
+                <p class="number3">loading</p>
+                <p class="number4">loading</p>
+                <div class="range">
+                  <input
+                    type="range"
+                    min="1"
+                    max="100"
+                    value="75"
+                    class="range-slider"
+                  />
+                  <label class="range-slider-value">75%</label>
+                </div>
+              </div>
+              <div class="fieldset">
+                <fieldset>
+                  <legend>Truck Number</legend>
+                  <div>
+                    <label><p>HR29 BD 2345</p></label>
+                  </div>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+              </div>
+              <div class="icons-1">
+                <div class="social-icons">
+                  <a href="#" class="pen"
+                    ><i class="fa-solid fa-square-pen"></i
+                  ></a>
+                  <a href="#" class="pen"
+                    ><i class="fa-solid fa-circle-pause"></i
+                  ></a>
+                  <a href="#" class="pen"
+                    ><i class="fa-solid fa-circle-play"></i
+                  ></a>
+                  <a href="#" class="pen"
+                    ><i class="fa-solid fa-download"></i
+                  ></a>
+                  <a href="#" class="pen"><i class="fa-solid fa-link"></i></a>
+                </div>
+                <div class="rating-icons">
+                  <a class="golden" href="#"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a class="golden" href="#"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a class="golden" href="#"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="#" class="golden"
+                    ><i class="fa-solid fa-star-half"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card-2">
+              <div class="last-grid">
+                <a href="#" class="last-grid-icon"
+                  ><i class="fa-sharp fa-solid fa-angle-down"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="slip-num-1">
+            <div class="card-1">
+              <div class="loading-1">
+                <p class="number1"></p>
+                <p class="number2">Slip number #123456</p>
+                <p class="number3">loading</p>
+                <p class="number4">loading</p>
+                <div class="range">
+                  <input
+                    type="range"
+                    min="1"
+                    max="100"
+                    value="75"
+                    class="range-slider"
+                  />
+                  <label class="range-slider-value">75%</label>
+                </div>
+              </div>
+              <div class="fieldset">
+                <fieldset>
+                  <legend>Truck Number</legend>
+                  <div>
+                    <label><p>HR29 BD 2345</p></label>
+                  </div>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+                <fieldset>
+                  <legend>Field</legend>
+                </fieldset>
+              </div>
+              <div class="icons-1">
+                <div class="social-icons">
+                  <a href="#" class="pen"
+                    ><i class="fa-solid fa-square-pen"></i
+                  ></a>
+                  <a href="#" class="pen"
+                    ><i class="fa-solid fa-circle-pause"></i
+                  ></a>
+                  <a href="#" class="pen"
+                    ><i class="fa-solid fa-circle-play"></i
+                  ></a>
+                  <a href="#" class="pen"
+                    ><i class="fa-solid fa-download"></i
+                  ></a>
+                  <a href="#" class="pen"><i class="fa-solid fa-link"></i></a>
+                </div>
+                <div class="rating-icons">
+                  <a class="golden" href="#"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a class="golden" href="#"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a class="golden" href="#"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="#" class="golden"
+                    ><i class="fa-solid fa-star-half"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card-2">
+              <div class="last-grid">
+                <a href="#" class="last-grid-icon"
+                  ><i class="fa-sharp fa-solid fa-angle-down"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="side-bar-content">
+        <div class="messenger">
+          <div class="messenger-1">
+            <div class="messenger-dp">
+              <img src="./img/tiger-g87cbd1faf_1280.jpg" alt="messenger-dp1" />
+              <p>Hi, Keval Here choose one option.</p>
+            </div>
+          </div>
+          <div class="suggestion">
+            <p class="menu">Menu</p>
+            <p class="notification">Notification</p>
+            <p class="most">Most Searched</p>
+          </div>
+        </div>
+        <div class="layout">
+          <div class="layout-1">
+            <img src="./images.png" alt="">
+          </div>
+          <div class="layout-2">
+            <img src="./images.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      let number = document.getElementById("number");
+      let counter = 0;
+      setInterval(() => {
+        if (counter == 100) {
+          clearInterval();
+        } else {
+          counter += 1;
+          number.innerHTML = counter + "%";
+        }
+      }, 19.5);
+    </script>
+    <script>
+      let number1 = document.getElementById("number-1");
+      let counter1 = 0;
+      setInterval(() => {
+        if (counter1 == 100) {
+          clearInterval();
+        } else {
+          counter1 += 1;
+          number1.innerHTML = counter1 + "%";
+        }
+      }, 19.5);
+    </script>
+    <script>
+      let number2 = document.getElementById("number-2");
+      let counter2 = 0;
+      setInterval(() => {
+        if (counter2 == 100) {
+          clearInterval();
+        } else {
+          counter2 += 1;
+          number2.innerHTML = counter2 + "%";
+        }
+      }, 19.5);
+    </script>
+    <script>
+      let number3 = document.getElementById("number-3");
+      let counter3 = 0;
+      setInterval(() => {
+        if (counter3 == 100) {
+          clearInterval();
+        } else {
+          counter3 += 1;
+          number3.innerHTML = counter3 + "%";
+        }
+      }, 19.5);
+    </script>
+  </body>
+</html>
